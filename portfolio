@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+	<img src="P.charmika.JPEG" alt="profile picture">
+		<h1>p.charmika</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">certificates</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>My name is charmika and I reside in Andhrapradesh with my family of four. I'm pursuing a bachelor's in computer application in Sister Nivedita University. I have completed my schooling at chaitanya  School Andhrapradeash, Anantapur.
+			Some of my strengths are that I am a great listener, self-motivated, and a positive thinker and I strive continually for excellence. My hobbies are listening to music, dancing and travelling as well.
+
+My weakness is I always want to improve myself in better ways than what I'm now.As I want to gain knowledge in different fields which I don't even gone through I'm a very inquisitive person I love to learn basically.</p>
+		</section>
+
+		<section id="projects">
+			<h2>My Certifications</h2>
+			<ul>
+				<li>
+					<h3>certificate 1</h3>
+					<p>IBM MACHINELEARNING.</p>
+				</li>
+				<li>
+					<h3> certificate 2</h3>
+					<p>ACCENTUR .</p>
+				</li>
+				<li>
+					<h3> certificate 3</h3>
+					<p> IOT.</p>
+				</li>
+			</ul>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; My Portfolio 2023</p>
+	</footer>
+</body>
+</html>
